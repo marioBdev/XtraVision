@@ -1,0 +1,51 @@
+.top {
+    -fx-background-image:url("../images/topBgrd.jpg");
+    -fx-background-size:cover;
+}
+
+
+//main Frame
+.main-achor-pane {
+     -fx-background-color: transparent;
+}
+
+
+//Buttons
+.btn1 {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-width: 0px 0px 2px 0px;
+    -fx-border-color: white;
+    /*-fx-padding: 0px 0px 0px 20px; Not working yet*/
+    -fx-padding-botton: 20px;
+}
+
+.btn1:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: #909090;
+    -fx-border-width: 0px 0px 2px 0px;
+    -fx-border-color: red;
+}
+
+
+
+
+.bgmenu{
+    -fx-background-color: #000111;
+}
+
+.bgGpane1 {
+    -fx-background-color: #A46F80;
+}
+.bgGpane2 {
+    -fx-background-color: #282A23;
+}
+.bgGpane3 {
+    -fx-background-color: #B51D17;
+}
+.bgGpane4 {
+    -fx-background-color: #807C6A;
+}
+.bgGpane5 {
+    -fx-background-color: #101961;
+}

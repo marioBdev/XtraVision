@@ -1,0 +1,16 @@
+.creditCardBg {
+    -fx-background-image:url("../images/creditCardBG.jpg");
+    -fx-background-size:cover;
+}
+.buttons {
+    -fx-background-color: #B51D17;
+    -fx-text-fill: #ffffff;
+}
+.buttons:hover {
+  -fx-text-fill: #F78E35;
+}
+
+.totalLbl{
+    -fx-text-fill: #B51D17;
+    -fx-font-weight: bold;
+}

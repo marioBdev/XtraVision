@@ -1,0 +1,12 @@
+.anchor-pane {
+      -fx-background-image:url("../images/bigbkgblack1024x640.jpg");
+      -fx-background-size:cover;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+
+}
+.grid-hire-pane {
+    -fx-background-color: transparent;
+}

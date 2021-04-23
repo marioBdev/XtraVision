@@ -1,0 +1,15 @@
+.big-backgroung {
+        -fx-background-image:url("../images/bigbkgblack1024x640.jpg");
+        -fx-background-size:cover;
+}
+
+.text{
+    -fx-text-fill: #F78E35;
+}
+.buttons {
+    -fx-background-color: #B51D17;
+    -fx-text-fill: #ffffff;
+}
+.buttons:hover {
+  -fx-text-fill: #F78E35;
+}

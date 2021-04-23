@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1024.0" styleClass="main-achor-pane" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="XtraVision.controller.MainController">
+   <children>
+      <BorderPane fx:id="mainPane" layoutX="156.0" layoutY="35.0" prefHeight="400.0" prefWidth="600.0" styleClass="main-achor-pane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <HBox alignment="CENTER_LEFT" prefHeight="120.0" prefWidth="252.0" styleClass="top" stylesheets="@../css/style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane prefHeight="120.0" prefWidth="73.0">
+                     <children>
+                        <Button fx:id="homeBtn" onAction="#homeBtn" layoutX="74.0" layoutY="46.0" mnemonicParsing="false" styleClass="btn1" stylesheets="@../css/style.css" text="Home" />
+                        <Button fx:id="hireMovieBtn" onAction="#hireMovieBtn" layoutX="134.0" layoutY="46.0" mnemonicParsing="false" styleClass="btn1" stylesheets="@../css/style.css" text="Hire Movie" />
+                        <Button layoutX="243.0" layoutY="46.0" mnemonicParsing="false" styleClass="btn1" stylesheets="@../css/style.css" text="How it Works" />
+                        <Button layoutX="348.0" layoutY="46.0" mnemonicParsing="false" styleClass="btn1" stylesheets="@../css/style.css" text="Contact Us" />
+                        <Button fx:id="admBtn" onAction="#admBtn" layoutX="440.0" layoutY="46.0" mnemonicParsing="false" styleClass="btn1" stylesheets="@../css/style.css" text="ADM" />
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>
