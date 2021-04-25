@@ -27,7 +27,7 @@ public class HomeController {
     //btnRent
     @FXML
     private void handleBtnRent(ActionEvent event) {
-        System.out.println("You clicked me!");
+        System.out.println("This button was just clicked!"); //double checking if the button is working properly
         fxmlLoader object = new fxmlLoader();
         view = object.getPage("itemMovie");
         mainPane.setCenter(view);
