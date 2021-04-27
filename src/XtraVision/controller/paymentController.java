@@ -30,5 +30,8 @@ public class paymentController {
 
     @FXML
     private Button purchaseBtn;
+    
+    @FXML
+    private Button cancelPurchase;
 
 }
