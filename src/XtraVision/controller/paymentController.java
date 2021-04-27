@@ -17,7 +17,10 @@ public class paymentController {
     private TextField credNumberTf;
 
     @FXML
-    private TextField expDateTf;
+    private TextField expMonth;
+    
+    @FXML
+    private TextField expYear;
 
     @FXML
     private PasswordField securityNumbTf;
