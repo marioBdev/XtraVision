@@ -1,5 +1,5 @@
 .creditCardBg {
-    -fx-background-image:url("../images/creditCardBG.jpg");
+    -fx-background-image:url("../images/creditCardBg.jpg");
     -fx-background-size:cover;
 }
 .buttons {
