@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="597.0" prefWidth="746.0" style="-fx-background-color: white;" stylesheets="@../css/customerFeedback.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="XtraVision.views.FeedbackController">
+   <children>
+      <ImageView fitHeight="281.0" fitWidth="232.0" layoutY="417.0">
+         <image>
+            <Image url="@../images/feedback.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="151.0" layoutY="14.0" text="Your Feedback Matters To Us!!!!" textFill="#b52b2b">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="17.0" layoutY="96.0" text="How was your overall experience?" />
+      <RadioButton layoutX="14.0" layoutY="136.0" mnemonicParsing="false" text="Bad" />
+      <RadioButton layoutX="88.0" layoutY="136.0" mnemonicParsing="false" text="Moderate" />
+      <RadioButton layoutX="211.0" layoutY="136.0" mnemonicParsing="false" text="Good" />
+      <Label layoutX="17.0" layoutY="184.0" text="Would you reccomend us to a friend?" />
+      <RadioButton layoutX="17.0" layoutY="225.0" mnemonicParsing="false" text="Not at all" />
+      <RadioButton layoutX="143.0" layoutY="225.0" mnemonicParsing="false" text="Perhaps" />
+      <RadioButton layoutX="250.0" layoutY="225.0" mnemonicParsing="false" text="For Sure!!" />
+      <Label layoutX="17.0" layoutY="266.0" text="How did you hear about us?" />
+      <RadioButton layoutX="14.0" layoutY="304.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="140.0" text="Social Media" />
+      <RadioButton layoutX="154.0" layoutY="304.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="161.0" text="Search Engine" />
+      <RadioButton layoutX="316.0" layoutY="304.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="85.0" text="Other" />
+      <TextArea layoutX="425.0" layoutY="85.0" prefHeight="401.0" prefWidth="280.0" promptText="Please feel free to add any extra feedback you feel like adding..." />
+      <Button layoutX="490.0" layoutY="530.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="161.0" text="Submit Feedback" />
+   </children>
+</AnchorPane>
