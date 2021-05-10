@@ -12,14 +12,15 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="admAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1024.0" styleClass="big-backgroung" stylesheets="@../css/adm.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="XtraVision.controller.HomeController">
+<AnchorPane fx:id="admAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1024.0" styleClass="big-backgroung" stylesheets="@../css/adm.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="XtraVision.controller.AddMovieController">
    <children>
       <HBox layoutX="82.0" layoutY="52.0" prefHeight="539.0" prefWidth="885.0">
          <children>
             <VBox alignment="CENTER" prefHeight="500.0" prefWidth="440.0">
                <children>
                   <ImageView fx:id="bigImage" fitHeight="460.0" fitWidth="315.0" pickOnBounds="true" preserveRatio="true" styleClass="imageview" />
-                  <Label prefHeight="17.0" prefWidth="236.0" styleClass="text" text="Image best format (315x46) pixels">
+                  <Label fx:id="eMsnAddMovie" />
+                  <Label prefHeight="13.0" prefWidth="171.0" styleClass="text" text="Image best format (315x460) pixels">
                      <font>
                         <Font size="10.0" />
                      </font>
@@ -29,7 +30,7 @@
                   </Label>
                   <HBox prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <Button fx:id="loadBigImageBtn" mnemonicParsing="false" styleClass="buttons" stylesheets="@../css/adm.css" text="Load Image">
+                        <Button fx:id="loadBigImageBtn" mnemonicParsing="false" onAction="#loadBigImageBtn" prefHeight="26.0" prefWidth="69.0" styleClass="buttons" stylesheets="@../css/adm.css" text="Load Image">
                            <font>
                               <Font size="10.0" />
                            </font>
@@ -83,7 +84,7 @@
                   </TextArea>
                   <HBox prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <Button fx:id="cancelAdmBt" mnemonicParsing="false" styleClass="buttons" stylesheets="@../css/adm.css" text="Calcel">
+                        <Button fx:id="cancelAdmBt" mnemonicParsing="false" styleClass="buttons" stylesheets="@../css/adm.css" text="Cancel">
                            <HBox.margin>
                               <Insets left="250.0" top="10.0" />
                            </HBox.margin>
