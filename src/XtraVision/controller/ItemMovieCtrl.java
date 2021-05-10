@@ -57,7 +57,7 @@ public class ItemMovieCtrl {
         this.movie = movie;
         this.myListener = myListener;
         miniTitle.setText(movie.getTitle());
-        miniSubTitle.setText(movie.getMiniSubtitle());
+        miniSubTitle.setText(movie.getSubtitle());
         miniPrice.setText(Movie.CURRENCY + movie.getPrice());
         Image image = new Image(getClass().getResourceAsStream(movie.getImgSrc()));
         miniImage.setImage(image);
