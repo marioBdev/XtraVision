@@ -57,7 +57,7 @@ public class HirePaneController implements Initializable {
         this.movie = movie;
         //this.myListener = myListener;
         miniTitle.setText(movie.getTitle());
-        miniSubTitle.setText(movie.getMiniSubtitle());
+        miniSubTitle.setText(movie.getSubtitle());
         miniPrice.setText(Movie.CURRENCY + movie.getPrice());
 //        Image image = new Image(getClass().getResourceAsStream(movie.getImgSrc()));
 //        miniImage.setImage(image);
@@ -77,7 +77,7 @@ public class HirePaneController implements Initializable {
             //movie.getImgSrc("../images/Jumanji_The_Next_Level__19687.1587035140.jpg");
             movie.setTitle("Jumanji: \n" +
                     "The Next Level ");
-            movie.setMiniSubtitle("The gang is back but it’s a new game!");
+            movie.setSubtitle("The gang is back but it’s a new game!");
             movie.setPrice(Movie.CURRENCY+"2,99");
             movies.add(movie);
         }
