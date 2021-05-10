@@ -1,10 +1,14 @@
 package XtraVision.model;
 
+import javafx.scene.image.Image;
+
 public class Movie {
     private int idMovie;
     private String title;
+    private Image imageMovie;
     private String subtitle;
     private String description;
+    private String genre;
     private String director;
     private String starringMovie;
     private String releasedMovie;
@@ -36,11 +40,11 @@ public class Movie {
         this.title = title;
     }
 
-    public String getMiniSubtitle() {
+    public String getSubtitle() {
         return subtitle;
     }
 
-    public void setMiniSubtitle(String subtitle) {
+    public void setSubtitle(String subtitle) {
         this.subtitle = subtitle;
     }
 
@@ -106,5 +110,21 @@ public class Movie {
 
     public void setRateStar(int rateStar) {
         this.rateStar = rateStar;
+    }
+
+    public Image getImageMovie() {
+        return imageMovie;
+    }
+
+    public void setImageMovie(Image imageMovie) {
+        this.imageMovie = imageMovie;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
     }
 }
